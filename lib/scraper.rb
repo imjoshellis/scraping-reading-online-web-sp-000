@@ -7,5 +7,5 @@ doc = Nokogiri::HTML(html)
 courses = doc.css("#3c239880-48cf-5ce7-84d0-578546d87586 .title-oE5vT4")
 
 courses.each do |course|
-  p course.text.strip
+  puts course.text.strip
 end
